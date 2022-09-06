@@ -1,0 +1,57 @@
+/*Background Image and Fonts*/
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/toronto.jpg");
+  font-family: "Roboto", sans-serif;
+}
+
+/*Header*/
+h1 {
+  font-size: 2em;
+  color: white;
+  z-index: 999;
+  margin-top: 9em;
+}
+
+/*Paragraph Text fonts*/
+p {
+  font-size: 1em;
+  color: white;
+}
+
+/*Positioning*/
+h1,
+p {
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 0.4em;
+  letter-spacing: 0.05em;
+}
+
+/*Img allignment and size*/
+img {
+  display: block;
+  margin-left: 40%;
+  width: 4em;
+}
+
+/*Web browser*/
+@media only screen and (min-width: 768px) {
+  /*Header*/
+  h1 {
+    font-size: 3em;
+    margin-top: 6.5em;
+  }
+
+  /*Paragraph Text fonts*/
+  p {
+    font-size: 2em;
+  }
+
+  /*Img allignment and size*/
+  img {
+
+    margin-left: 46.5%;
+    width: 5em;
+  }
+}

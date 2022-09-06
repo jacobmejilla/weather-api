@@ -1,0 +1,24 @@
+{
+    "menu": [
+        { 
+            "url": "/", 
+            "text": "Home", 
+            "target": null 
+        },
+        { 
+            "url": "/about.html", 
+            "text": "About", 
+            "target": null 
+        },
+        { 
+            "url": "https://shopify.com", 
+            "text": "Shop", 
+            "target": "_blank" 
+        },
+        { 
+            "url": "/contact/", 
+            "text": "Contact", 
+            "target": null 
+        }
+    ]
+}
